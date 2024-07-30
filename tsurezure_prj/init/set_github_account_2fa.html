@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>MKGHA</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <header></header>
+    <main>
+        <section>
+            <h2>ぎっと　はぶ　の　２ようそ　にんしょう</h2>
+
+            <h3>
+                ながれ　＊ためしたひ　2024/7/29
+            </h3>
+                <p>このページの作業「2要素認証の登録」は必須ではないですが、やることを勧めます。</p>
+                <ol>
+                    <li>
+                        2要素認証とは
+                        <br>
+                        認証に用いられる下記のような要素から2種類を用いて認証すること
+                        <ol>
+                            <li>
+                                IDとパスワードなどといった本人だけが知っている知識->知識認証
+                            </li>
+                            <li>
+                                あるいはICカードやスマートフォンなど本人だけが持っている物->所有物認証
+                            </li>
+                            <li>
+                                指紋や顔、虹彩といった本人の身体的特徴->生体認証
+                            </li>
+                        </ol>
+                        <br>
+                        目的：アカウントのっとり等を起こりにくくする
+                        <br>
+                    </li>
+
+                    <li>
+                        マイクロソフトのスマホ用の認証アプリをスマホにインストール
+                        <br>
+                        「Microdoft authenticator」をアプリストアでインストール
+                        <br>
+                        appleストア、google playストアの両方にあります。
+                        <br>
+                        <img src="../img/init/github/setting/authenticator/img01.png" style="width: 60%; margin: auto;">
+                        <br>
+                    </li>
+                    <li>
+                        こんなアプリです。
+                        <br>
+                        <img src="../img/init/github/setting/authenticator/img03.png" style="width: 60%; margin: auto;">
+                        <br>
+                    </li>
+                    <li>
+                        アプリ起動後、画面上側に「＋」アイコンがあるのでタップします。
+                        <br>
+                        <img src="../img/init/github/setting/authenticator/img04.png" style="width: 60%; margin: auto;">
+                        <br>
+                    </li>
+                    <li>
+                        個人で取得したマイクロソフトアカウントへの認証なら「個人のアカウント」
+                        <br>
+                        職場や学校等が組織として取得・購入などしたマイクロソフトアカウントなら
+                        <br>
+                        「職場または学校のアカウント」
+                        <br>
+                        その他のアカウントなら「その他」を選びます。
+                        <br>
+                        今回は個人で取得したgithubのアカウントの認証なので「その他」をタップします。
+                        <br>
+                        <img src="../img/init/github/setting/authenticator/img05.png" style="width: 60%; margin: auto;">
+                        <br>
+                    </li>
+                    <li>
+                        <br>
+                        カメラが起動します。カメラへの許可は一時的でよいのでアプリに与えてください。
+                        <br>
+                        起動したカメラで、このアプリと連携させたいサービスのアカウントのQRコードを読み込むと、
+                        <br>
+                        以後、アプリがそのアカウントと連携するようになります。
+                        <br>
+                        アプリ起動後のホーム画面で、連携済のアカウントが一覧で表示されます。
+                        <br>
+                        ブラウザでID・パスワード入力後などのタイミングに、
+                        <br>
+                        このアプリ（Microdoftauthenticator）から発行されるワンタイムパスワードの入力を求められるようになります。
+                        <br>
+                        一旦、ログイン後のgithub画面に戻ります。
+                        <br>
+                    </li>
+                    <li>
+                        <br>
+                        右角に何かしらの模様のアイコンがあるのでクリック
+                        <br>
+                        ＊アカウント作成時に、自動でランダムで作成されるユーザーアイコン画像です。
+                        <br>
+                        <img src="../img/init/github/setting/img01.png" style="width: 60%; margin: auto;">
+                        <br>
+                    </li>
+                    <li>
+                        <br>
+                        メニューが開きます。
+                        <br>
+                        「setting」をクリック
+                        <br>
+                        <img src="../img/init/github/setting/img02.png" style="width: 60%; margin: auto;">
+                        <br>
+                    </li>
+                    <li>
+                        <br>
+                        アカウントの設定画面に移動します。
+                        <br>
+                        「passwoed and authentication」（パスワードと認証）をクリック
+                        <br>
+                        <img src="../img/init/github/setting/img03.png" style="width: 60%; margin: auto;">
+                        <br>
+                    </li>
+                    <li>
+                        <br>
+                        パスキーや2要素認証を設定できる画面に映ります。
+                        <br>
+                        「Two-factor authentication」（2要素認証）の
+                        <br>
+                        「Enable tow-factor authentication」（2要素認証を有効化）をクリック
+                        <br>
+                        <img src="../img/init/github/setting/img04.png" style="width: 60%; margin: auto;">
+                        <br>
+                    </li>
+                    <li>
+                        <br>
+                        QRコードが表示されます。
+                        <br>
+                        さっきスマホにインストールしたMicrosoft Authenticatorで、
+                        <br>
+                        多分、ホーム画面の画面上部にある「＋」マークをタップ！
+                        <br>
+                        カメラが起動したら、四角の枠内にQRコード収めてください。
+                        <br>
+                        自動で「認証成功」的な画面にならない場合、
+                        <br>
+                        カメラモードでQRを枠に収めると、何かしらのメッセージが画面に映ることあるので、
+                        <br>
+                        その場合はそれをタップすると、認証できると思う。
+                        <br>
+                        <img src="../img/init/github/setting/img05.png" style="width: 60%; margin: auto;">
+                        <br>
+                    </li>
+                    <li>
+                        <br>
+                        Microsoft Authenticatorとgithubの初期連携が完了したら、
+                        <br>
+                        この画面になりました。
+                        <br>
+                        緑の塗りつぶしには、パスワードみたいな文字列が書かれています。
+                        <br>
+                        ログインに必要なMicrosoft Authenticatorがインストールされたデバイスが
+                        <br>
+                        使い物にならなくなったOR行方不明になったりした時のための
+                        <br>
+                        復活用のパスワード群です。
+                        <br>
+                        「Download」をクリックして、ダウンロードしたファイルは安全に保管しましょう。
+                        <br>
+                        ダウンロードして保存したら、
+                        ダウンロード後に表示される
+                        <br>
+                        「I have saved my recovery codes」（復活用コードを保存したよ）をクリックします。
+                        <br>
+                        <img src="../img/init/github/setting/img06.png" style="width: 60%; margin: auto;">
+                        <br>
+                    </li>
+                    <li>
+                        <br>
+                        「You have enabled tow-factor authentication using authentication app」
+                        <br>
+                        （認証用アプリを用いた2要素認証の設定作業が完了しました）という画面が表示されます。
+                        <br>
+                        「Done」（完了）をクリック
+                        <br>
+                        <img src="../img/init/github/setting/img07.png" style="width: 60%; margin: auto;">
+                        <br>
+                    </li>
+                    <li>
+                        設定画面に戻ります。
+                        <br>
+                        以後、githubログインには、IDとパスワード入力後、MicroSoft Authenticatorから発行されるワンタイムパスコードの入力が求められます。
+                        <br>
+                        <img src="../img/init/github/setting/img08.png" style="width: 60%; margin: auto;">
+                        <br>
+                    </li>
+                    <li>
+                        以上、とりあえず、アカウント作るところまでです。
+                        <br>
+                    </li>
+
+                </ol>
+        </section>
+    </main>
+    <footer></footer>
+</body>
+</html>
